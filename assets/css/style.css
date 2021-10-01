@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Merriweather;
+}
+
+#main {
+
+}
+
+
+#header {
+ height: 135px;
+ background: url('/assets/css/img/Header/header1.jpg.png') top center / cover no-repeat;
+}
+.clear {
+    clear: both;
+}
+.nav-img {
+    display: inline-block;
+    margin-left: 200px
+}
+.header-content {
+    color: #fff;
+    font-size: 25px;
+    float: right;
+    list-style-type: none;
+    margin-right: 730px;
+    margin-top: 45px;
+}
+.header-img {
+    margin-top: 40px;
+}
+
+/* Thanh MENU */
+.header-bot {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #2e3192;
+    line-height: 40px;
+}
+.header {
+    height: 35px;
+    line-height: 55px;
+    background-color: #2e3192;
+}
+.container {
+    margin-left: 185px;
+
+}
+#nav {
+    display: inline-flex
+}
+#nav li {
+    list-style-type: none;
+    
+}
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+#nav .menu:hover::after {
+    transform: scale(1);
+}
+#nav .menu::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -18px;
+    transform: scale(0);
+    transition: all 0.5s;
+    margin-left: 14px;
+}
+
+/* Ngay Thang */
+.trunganh-bottom {
+    background-color: #ccc;
+    padding: 15px 0;
+}
+.date {
+    display: inline-block;
+    margin-left: 175px;
+    font-style: italic;
+}
+.search {
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+
+.input-search {
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+}
+.heading-search {
+    margin-right: 25px;
+}
+.sub-search {
+    padding: 3.3px;
+    background-color: #4792d3;
+    color: #fff;
+      border: none;
+    border-radius: 4px;
+}
+.sub-search:hover {
+    background-color: #A9A9A9;
+    color: #000;
+    cursor: pointer;
+}
+.nav-hotline {
+    background: #ed1c24;
+    border-radius: 5px;
+    padding: 3px 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+#slider {
+ 
+}
+.nav-slider {
+    padding: 20px 20px 0 170px;
+    color: #2e3192;
+}
+.nav-slider::after {
+    display: block;
+    content: " ";
+    height: 2px;
+    width: 1175px;
+    background-color: #ccc;
+}
+.slider-text {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.ti-angle-right {
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 5px;
+}
+#content {
+    margin-left: 200px;
+}
+.layout {
+    display: flex;
+}
+.layout-content {
+    width: calc(100% - 550px);
+    border-right: 1px solid rgba(0,0,0,.1);
+    padding-right: 20px;
+    margin-top: 30px;
+}
+.list-navimg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.box-stream a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.box-sabo {
+    font-family: sans-serif;
+    margin-top: 6px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* CỘT TRÁI */
+.title-section {
+    margin-bottom: 15px;
+}
+.title-section a {
+    background: #4792d3;
+    border-radius: 3px;
+    padding: 2px 22px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+}
+.layout-sub {
+    width: 325px;
+    margin-left: 50px;
+}
+.home-focus {
+    margin-top: 25px;
+}
+#list-new li:hover a {
+    color: red;
+    background-color: #fff;
+ }
+.nav-new {
+    margin-bottom: 6px;
+}
+.sub-new {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+
+/* THÔNG TIN BỆNH VIỆN */
+.nav-hotline-right {
+    margin-top: 100px;
+}
+.box-right p {
+    background: #f0eff4;
+    border-radius: 3px 3px 0 0;
+    padding: 18px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #333;
+    font-family: 'Merriweather';
+    margin-top: 20px;
+}
+.list-hopital {
+    padding: 10px;
+    max-height: 360px;
+    overflow-y: auto;
+    border: 1px solid #eaeaf4;
+    box-sizing: border-box;
+    border-radius: 0 0 3px 3px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    font-size: 14px;
+    line-height: 150%;
+    align-items: center;
+    color: #222;
+    font-family: emoji;
+    font-weight: 600;
+}
+.name {
+    flex: 1;
+}
+.phone {
+    margin-left: 10px;
+}
+
+/* NỘI DUNG CÁC BÀO BÁO CON */
+.list-listing-item {
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 2px solid #ccc;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.listing-img {
+    width: 260px;
+    margin-right: 15px;
+    height: max-content;
+}
+.nav-listing-content a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.sub-listing-content {
+    font-family: 'themify';
+}
+/* QUANG CAO */
+.adv {
+    margin-top: 50px;
+}
+#home-parner {
+    display: flex;
+    margin-left: 200px;
+}
+.parter-text {
+    color: #2e3192;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.heading-parner {
+    display: flex;
+}
+.tony {
+    margin-right: 20px;
+}
+#footer {
+height: 170px;
+background-color: #2e3192;
+margin-top: 100px;
+}
+.footer-img {
+    display: inline-block;
+    margin-left: 200px;
+}
+.add-footer {
+    display: inline-block;
+    margin-left: 50px;
+    color: #fff;
+}
+.footer-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
